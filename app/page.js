@@ -25,7 +25,7 @@ export default function Home() {
 
         <p>The Kaggle <a href="https://www.kaggle.com/datasets/piterfm/olympic-games-medals-19862018?select=olympic_medals.csv">dataset</a> I was using had data going back to the first modern Olympics in 1896, but I decided to 
         only use data starting with the 2000 Summer Olympics in Sydney. This cutoff point removed many of the events
-        and countries that no longer exist. Winter Olympics will not be helpful in determining this year's results, 
+        and countries that no longer exist. Winter Olympics will not be helpful in determining this year&apos;s results, 
         so that leaves six years (2000, 2004, 2008, 2012, 2016, 2020) of data left. This still leaves over 5,000 data points!</p>
 
         <p>I tallied the amount of gold, silver, and bronze medals each country has earned in these summer games as well as
