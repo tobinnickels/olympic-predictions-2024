@@ -6,7 +6,7 @@ export default function Home() {
   const medalsTable = medals.data.slice(0,81).map((country) =>{
     console.log(country)
     return(
-      <tr className={styles.medalsRow}>
+      <tr className={styles.medalsRow} key={country.index}>
         <td className={styles.medalsDatum}>{country.index}</td>
         <td className={styles.medalsDatum}>{country.GOLD}</td>
         <td className={styles.medalsDatum}>{country.SILVER}</td>
